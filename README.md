@@ -18,9 +18,12 @@ Predict the presence of heart disease in patients using classification algorithm
 | Logistic Regression | 83% | 0.950 |
 | **Random Forest** | **87%** | **0.946** |
 | XGBoost | 87% | 0.892 |
+<img width="591" height="470" alt="image" src="https://github.com/user-attachments/assets/46afb28d-08e0-4324-b86a-772cd26199e0" />
+
 
 ## Key Insight
-[Fill in top 3-4 features from your feature importance chart, e.g. thal, cp, ca, oldpeak were the strongest predictors]
+Thalassemia (thal), chest pain type (cp), maximum heart rate achieved (thalach), and ST depression (oldpeak) were the four strongest predictors, together accounting for nearly half the model's decision weight. This aligns with established clinical risk factors for cardiac disease. On the held-out test set, the model correctly identified 52 of 60 patients (86.7% accuracy), with a slightly higher rate of false negatives (5) than false positives (3) — worth noting since missed disease cases carry higher risk than false alarms in a real diagnostic context. <img width="788" height="590" alt="image" src="https://github.com/user-attachments/assets/14b2f323-e577-4c9f-b60f-04ebc271d3ce" />
+
 
 ## Files
 - `train.py` — data loading, preprocessing, training script
@@ -35,7 +38,8 @@ streamlit run app.py
 ```
 
 ## Demo
-[Add screenshot of the app here]
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/5a4a031d-1c72-427e-befb-deffe73c8274" />
+
 
 ## Disclaimer
 This is a machine learning demo built for educational purposes as part of the CodeAlpha internship. It is not a substitute for professional medical diagnosis.

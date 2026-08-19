@@ -22,7 +22,8 @@ Predict the presence of heart disease in patients using classification algorithm
 
 
 ## Key Insight
-Thalassemia (thal), chest pain type (cp), maximum heart rate achieved (thalach), and ST depression (oldpeak) were the four strongest predictors, together accounting for nearly half the model's decision weight. This aligns with established clinical risk factors for cardiac disease. On the held-out test set, the model correctly identified 52 of 60 patients (86.7% accuracy), with a slightly higher rate of false negatives (5) than false positives (3) — worth noting since missed disease cases carry higher risk than false alarms in a real diagnostic context. <img width="788" height="590" alt="image" src="https://github.com/user-attachments/assets/14b2f323-e577-4c9f-b60f-04ebc271d3ce" />
+Thalassemia (thal), chest pain type (cp), maximum heart rate achieved (thalach), and ST depression (oldpeak) were the four strongest predictors, together accounting for nearly half the model's decision weight. This aligns with established clinical risk factors for cardiac disease. On the held-out test set, the model correctly identified 52 of 60 patients (86.7% accuracy), with a slightly higher rate of false negatives (5) than false positives (3) — worth noting since missed disease cases carry higher risk than false alarms in a real diagnostic context. 
+<img width="788" height="590" alt="image" src="https://github.com/user-attachments/assets/14b2f323-e577-4c9f-b60f-04ebc271d3ce" />
 
 
 ## Files
